@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody rb;
     public float forwardForce = 4000f;
     public float sidewayForce = 500f;
+    public static GameObject CP;
 
     // Start is called before the first frame update
     void Start()
