@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 388c53c70c0bdd64fa6663ef2f514bae
+TextScriptImporter:
+  externalObjects:
+  - first:
+      type: Character
+      assembly: Enemy
+      name: Red Coat 1
+    second: {fileID: 102900000, guid: f2cfa43080893084a8036d800386e6a5, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
