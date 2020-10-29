@@ -8,7 +8,7 @@ public class ChangeCheckpoint : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            PlayerMovement.CP = gameObject;
+            PlayerMovementBM.CP = gameObject;
         }
             
     }

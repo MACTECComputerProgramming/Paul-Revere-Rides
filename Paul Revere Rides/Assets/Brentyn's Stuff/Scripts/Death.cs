@@ -18,8 +18,8 @@ public class Death : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            player.transform.position = PlayerMovement.CP.transform.position;
-            player.transform.rotation = PlayerMovement.CP.transform.rotation;
+            player.transform.position = PlayerMovementBM.CP.transform.position;
+            player.transform.rotation = PlayerMovementBM.CP.transform.rotation;
 
 
         }
