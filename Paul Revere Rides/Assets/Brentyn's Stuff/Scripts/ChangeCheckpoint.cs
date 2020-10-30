@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class ChangeCheckpoint : MonoBehaviour
 {
@@ -9,8 +10,9 @@ public class ChangeCheckpoint : MonoBehaviour
         if (plyr.gameObject.tag == "Player")
         {
             PlayerMovementBM.CP = gameObject;
+            SceneManager.LoadScene("Question1");
         }
-            
+
     }
 
 
