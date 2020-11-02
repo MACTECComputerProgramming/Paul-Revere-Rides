@@ -46,6 +46,8 @@ public class Questions : MonoBehaviour
                 question.text = "Paul Revere the only rider that night?";
                 ans1.text = "Yes";
                 ans2.text = "No";
+                ans3.text = " ";
+                ans4.text = " ";
                 ans2.GetComponentInParent<CorrectAns>().correct = true;
                 break;
 
@@ -55,7 +57,7 @@ public class Questions : MonoBehaviour
                 ans2.text = "Rivoire";
                 ans3.text = "Middleton";
                 ans4.text = "Rivera";
-                ans1.GetComponentInParent<CorrectAns>().correct = true;
+                ans2.GetComponentInParent<CorrectAns>().correct = true;
                 break;
 
             case 6:
