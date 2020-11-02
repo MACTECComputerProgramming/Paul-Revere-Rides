@@ -10,7 +10,8 @@ public class ChangeCheckpoint : MonoBehaviour
         if (plyr.gameObject.tag == "Player")
         {
             PlayerMovementBM.CP = gameObject;
-            SceneManager.LoadScene("Question1");
+            SceneManager.LoadScene("Question1", LoadSceneMode.Additive);
+            Time.timeScale = 0f;
         }
 
     }
