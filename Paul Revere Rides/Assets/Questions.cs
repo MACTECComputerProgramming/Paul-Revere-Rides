@@ -9,7 +9,7 @@ public class Questions : MonoBehaviour
     
     void Start()
     {
-          int rnd = Random.Range(1, 8);
+          int rnd = Random.Range(1, 13);
 
 
         switch (rnd)
@@ -77,6 +77,51 @@ public class Questions : MonoBehaviour
                 ans3.text = "1756";
                 ans4.text = "1818";
                 ans4.GetComponentInParent<CorrectAns>().correct = true;
+                break;
+
+            case 8:
+                question.text = "How many kids did Paul Revere have";
+                ans1.text = "20";
+                ans2.text = "3";
+                ans3.text = "16";
+                ans4.text = "9";
+                ans3.GetComponentInParent<CorrectAns>().correct = true;
+                break;
+
+            case 9:
+                question.text = "Who told Paul Revere that the British were coming";
+                ans1.text = "Dr. Joseph Warren";
+                ans2.text = "Abraham Lincoln";
+                ans3.text = "King Geroge";
+                ans4.text = "Alexander Hamilton";
+                ans1.GetComponentInParent<CorrectAns>().correct = true;
+                break;
+
+            case 10:
+                question.text = "Where did Paul Revere ride ";
+                ans1.text = "Concord";
+                ans2.text = "Boston";
+                ans3.text = "Lexington";
+                ans4.text = "Salem";
+                ans3.GetComponentInParent<CorrectAns>().correct = true;
+                break;
+
+            case 11:
+                question.text = "What is the name of the poem about Paul Revere";
+                ans1.text = "The british are coming";
+                ans2.text = "Midnight Ride";
+                ans3.text = "Paul Revere's ride";
+                ans4.text = "Paul Revere's Midnight Ride";
+                ans3.GetComponentInParent<CorrectAns>().correct = true;
+                break;
+
+            case 12:
+                question.text = "Who wrote the poem about Paul Revere";
+                ans1.text = "Ernest Hemingway";
+                ans2.text = "Henry WadsWorth Longfellow";
+                ans3.text = "William Shakesperare";
+                ans4.text = "Edgar Allan Poe";
+                ans2.GetComponentInParent<CorrectAns>().correct = true;
                 break;
         }
     }
