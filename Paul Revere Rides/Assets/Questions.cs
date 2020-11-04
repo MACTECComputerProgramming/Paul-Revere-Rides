@@ -33,7 +33,7 @@ public class Questions : MonoBehaviour
                 break;
            
             case 3:
-                question.text = "What did Paul Revere not do for a job after the american revolution?";
+                question.text = "What did Paul Revere not do for a job after the American Revolution?";
                 ans1.text = "Foundry";
                 ans2.text = "Copper Mill";
                 ans3.text = "President";
@@ -90,7 +90,7 @@ public class Questions : MonoBehaviour
 
             case 9:
                 question.text = "Who told Paul Revere that the British were coming";
-                ans1.text = "Dr. Joseph Warren";
+                ans1.text = "Joseph Warren";
                 ans2.text = "Abraham Lincoln";
                 ans3.text = "King Geroge";
                 ans4.text = "Alexander Hamilton";
@@ -118,7 +118,7 @@ public class Questions : MonoBehaviour
             case 12:
                 question.text = "Who wrote the poem about Paul Revere";
                 ans1.text = "Ernest Hemingway";
-                ans2.text = "Henry WadsWorth Longfellow";
+                ans2.text = "Henry Longfellow";
                 ans3.text = "William Shakesperare";
                 ans4.text = "Edgar Allan Poe";
                 ans2.GetComponentInParent<CorrectAns>().correct = true;
