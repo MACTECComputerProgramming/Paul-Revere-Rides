@@ -15,10 +15,6 @@ public class CorrectAns : MonoBehaviour
                 } else { SceneManager.LoadScene("GameOver"); Debug.Log("Test2");
  }
     }
-<<<<<<< Updated upstream
 
-=======
-    
->>>>>>> Stashed changes
    
 }
