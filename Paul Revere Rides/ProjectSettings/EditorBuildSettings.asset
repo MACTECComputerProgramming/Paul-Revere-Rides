@@ -4,18 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-
   m_Scenes:
   - enabled: 1
     path: Assets/Kolins Stuff/Menu.unity
     guid: 33fbae0e0979c7a489f41148eb414a32
   - enabled: 1
-    path: Assets/Town.unity
-    guid: 98d705c706b16ea4cae9cb567339b80b
+    path: Assets/New folder/Town.unity
+    guid: f5ab99b00976e5d44be6c23a98220b05
   - enabled: 1
     path: Assets/Kolins Stuff/Question1.unity
     guid: 7cbe05d5d24777747b28ad6c8fca3026
-  - enabled: 1
-    path: Assets/Kolins Stuff/GameOver.unity
-    guid: 76336731f6e7508419b7bafdf8ed6c2d
   m_configObjects: {}
